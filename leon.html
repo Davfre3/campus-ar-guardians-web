@@ -1,0 +1,80 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Estación León · Campus AR Guardians</title><meta name="theme-color" content="#F6B500"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700;800;900&family=Figtree:wght@500;600;700;800&display=swap">
+<style>:root{--pri:#F6B500;--dk:#5E4300;--lt:#FFF3C9;--ink:#111111;color-scheme:light}
+*{box-sizing:border-box;margin:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--lt);color:#0d0d0d;font:16px/1.55 'Figtree',system-ui,sans-serif;min-height:100vh}
+a{color:inherit}
+:focus-visible{outline:3px solid #000;outline-offset:3px}
+.wrap{max-width:680px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3,.disp{font-family:'Unbounded','Arial Black',system-ui,sans-serif;line-height:1.05;text-wrap:balance}
+.top{background:var(--pri);color:var(--ink);padding-block:calc(18px + env(safe-area-inset-top,0px)) 0;position:relative;overflow:hidden;
+ background-image:radial-gradient(circle,var(--dk) 1.6px,transparent 2px);background-size:18px 18px;background-blend-mode:normal}
+.top::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,var(--pri) 100%);pointer-events:none}
+.top .wrap{position:relative}
+.eyebrow{display:inline-block;font:700 12px/1 'Figtree',sans-serif;letter-spacing:.14em;text-transform:uppercase;background:#000;color:#fff;padding:8px 12px;clip-path:polygon(0 0,calc(100% - 8px) 0,100% 8px,100% 100%,8px 100%,0 calc(100% - 8px))}
+h1{font-size:clamp(40px,13vw,76px);font-weight:900;margin-top:18px;letter-spacing:-.02em;text-transform:uppercase}
+.fac{font:700 18px/1.25 'Figtree',sans-serif;margin-top:8px;opacity:.95}
+.plate{position:relative;margin:26px 0 -34px;padding-bottom:0}
+.plate img{display:block;width:100%;height:auto;border:5px solid #000;border-radius:0;box-shadow:10px 10px 0 var(--dk);background:#fff;animation:bob 5s ease-in-out infinite}
+.motif{position:absolute;right:-6px;top:-62px;width:104px;color:#000;opacity:.9;transform:rotate(8deg)}
+.sticker{position:absolute;left:-4px;bottom:46px;transform:rotate(-6deg);background:#fff;color:#000;border:4px solid #000;padding:10px 14px;box-shadow:5px 5px 0 #000;font:800 13px/1.1 'Unbounded',sans-serif;text-transform:uppercase}
+.sticker small{display:block;font:700 10px/1 'Figtree',sans-serif;letter-spacing:.14em;margin-bottom:5px;color:var(--dk)}
+@keyframes bob{50%{transform:translateY(-6px)}}
+.quote{margin-top:64px;background:#000;color:#fff;padding:26px 22px;clip-path:polygon(0 0,calc(100% - 22px) 0,100% 22px,100% 100%,22px 100%,0 calc(100% - 22px))}
+.quote p{font:800 clamp(20px,5.6vw,28px)/1.2 'Unbounded',sans-serif}
+.quote p span{color:var(--pri)}
+section{margin-top:46px}
+h2{font-size:clamp(22px,6vw,30px);font-weight:800;text-transform:uppercase;display:flex;gap:12px;align-items:center}
+h2::after{content:"";flex:1;height:6px;background:var(--pri);border:2px solid #000;min-width:20px}
+.steps{list-style:none;padding:0;display:grid;gap:14px;margin-top:20px}
+.steps li{background:#fff;border:4px solid #000;padding:16px 16px 16px 66px;position:relative;box-shadow:6px 6px 0 var(--pri)}
+.steps li b{position:absolute;left:0;top:0;bottom:0;width:50px;background:var(--pri);color:var(--ink);display:grid;place-items:center;font:900 22px 'Unbounded',sans-serif;border-right:4px solid #000}
+.steps strong{display:block;font-weight:800}
+.car{margin-top:20px;display:grid;gap:12px}
+details{background:#fff;border:4px solid #000}
+summary{list-style:none;cursor:pointer;padding:15px 16px;font:700 17px/1.25 'Figtree',sans-serif;display:flex;justify-content:space-between;align-items:center;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";flex:none;width:32px;height:32px;display:grid;place-items:center;background:var(--pri);color:var(--ink);font:900 20px 'Unbounded',sans-serif;border:3px solid #000}
+details[open] summary::after{content:"–"}
+details[open] summary{background:var(--pri);color:var(--ink)}
+details[open] summary::after{background:#000;color:#fff}
+.links{display:grid;gap:10px;padding:14px;border-top:4px solid #000;background:var(--lt)}
+.links a{display:flex;justify-content:space-between;gap:10px;text-decoration:none;font-weight:700;background:#fff;border:3px solid #000;padding:12px 14px;transition:transform .12s,box-shadow .12s}
+.links a:hover,.links a:active{transform:translate(-3px,-3px);box-shadow:5px 5px 0 #000}
+.links a::after{content:"↗";font-weight:900;color:var(--dk)}
+.pend{margin-top:20px;display:grid;gap:10px}
+.pend div{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap;background:#fff;border:3px dashed #000;padding:12px 14px}
+.pend span{font:700 11px/1 'Figtree',sans-serif;letter-spacing:.1em;text-transform:uppercase;background:var(--pri);color:var(--ink);padding:6px 9px;border:2px solid #000}
+.app{margin-top:20px;background:var(--pri);color:var(--ink);border:4px solid #000;box-shadow:8px 8px 0 #000;padding:20px}
+.app h3{font-size:20px;font-weight:800;text-transform:uppercase}
+.app p{margin-top:10px;font-weight:600}
+.others{margin-top:46px;background:#000;color:#fff;padding:26px 0 calc(34px + env(safe-area-inset-bottom,0px))}
+.others h2{color:#fff;font-size:18px}
+.others h2::after{background:#fff;border-color:#fff}
+.chips{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-top:18px}
+.chips a{display:block;text-decoration:none;border:3px solid #fff;padding:14px;background:var(--c);color:var(--k);font:800 14px/1.1 'Unbounded',sans-serif;text-transform:uppercase;transition:transform .12s}
+.chips a:hover{transform:translateY(-4px)}
+.chips a small{display:block;font:700 11px/1.2 'Figtree',sans-serif;text-transform:none;margin-top:6px;opacity:.85}
+.fine{margin-top:22px;font-size:12px;opacity:.7}
+@media (prefers-reduced-motion:reduce){.plate img{animation:none}*{transition:none!important}}
+</style></head><body>
+<header class="top"><div class="wrap"><span class="eyebrow">Campus AR Guardians · ESAN</span>
+<h1>León</h1><p class="fac">Facultad de Derecho y Ciencias Sociales</p>
+<div class="plate"><div class="motif"><svg viewBox="0 0 120 120" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="7"><ellipse cx="60" cy="60" rx="52" ry="19"/><ellipse cx="60" cy="60" rx="52" ry="19" transform="rotate(60 60 60)"/><ellipse cx="60" cy="60" rx="52" ry="19" transform="rotate(120 60 60)"/></g><circle cx="60" cy="60" r="9" fill="currentColor"/></svg></div><img src="leon.jpg" alt="Placa de la estación León" width="900" height="643"><div class="sticker"><small>Insignia</small>Explorador social</div></div></div></header>
+<main class="wrap">
+<div class="quote"><p>“<span>Analiza el caso y comprende a las personas y su entorno.</span>”</p></div>
+<section><h2>Cómo jugar</h2><ol class="steps">
+<li><b>1</b><strong>Abre la app Campus AR Guardians</strong>Activa la cámara dentro de la app.</li>
+<li><b>2</b><strong>Apunta a la placa de León</strong>El personaje aparece y se abre su menú.</li>
+<li><b>3</b><strong>Resuelve el mini-reto</strong>Si aciertas, ganas la insignia Explorador social y desbloqueas las carreras.</li></ol></section>
+<section><h2>Carreras</h2><div class="car"><details><summary>Derecho</summary><div class="links"><a href="https://www.ue.edu.pe/pregrado/carreras/derecho" target="_blank" rel="noopener">Malla curricular y página de la carrera</a><a href="https://www.ue.edu.pe/pregrado/images/files/2026/certificaciones/Certificacion-DERECHO.pdf" target="_blank" rel="noopener">Certificaciones</a><a href="https://www.ue.edu.pe/pregrado/images/files/2026/certificaciones/Areas-de-especializacion-DERECHO.pdf" target="_blank" rel="noopener">Áreas de especialización</a></div></details><details><summary>Derecho Corporativo</summary><div class="links"><a href="https://www.ue.edu.pe/pregrado/carreras/derecho-corporativo" target="_blank" rel="noopener">Malla curricular y página de la carrera</a><a href="https://www.ue.edu.pe/pregrado/images/files/2024/Certificaciones-Especializaciones/Certificados%20de%20especialidad%20y%20certificaciones%20transversales%20-%20Derecho%20Corporativo-2.pdf" target="_blank" rel="noopener">Certificaciones</a><a href="https://www.ue.edu.pe/pregrado/images/files/2024/Certificaciones-Especializaciones/Certificados%20de%20especialidad%20y%20certificaciones%20transversales%20-%20Derecho%20Corporativo-1.pdf" target="_blank" rel="noopener">Áreas de especialización</a></div></details><details><summary>Psicología</summary><div class="links"><a href="https://www.ue.edu.pe/pregrado/carreras/psicologia" target="_blank" rel="noopener">Malla curricular y página de la carrera</a><a href="https://www.ue.edu.pe/pregrado/images/files/2026/certificaciones/Certificacion-PSICOLOGIA.pdf" target="_blank" rel="noopener">Certificaciones</a><a href="https://www.ue.edu.pe/pregrado/images/files/2026/certificaciones/Areas-de-especializacion-PSICOLOGIA.pdf" target="_blank" rel="noopener">Áreas de especialización</a></div></details></div>
+<p class="fine" style="color:#000;opacity:.65">Enlaces oficiales de ESAN. Se abren en una pestaña nueva.</p></section>
+<section><h2>Antes de venir</h2><div class="pend">
+<div>Cómo llegar a la estación<span>Pendiente de aprobación</span></div>
+<div>Contacto de Admisión<span>Pendiente de aprobación</span></div>
+<div>Horarios de atención<span>Pendiente de aprobación</span></div></div></section>
+<section><div class="app"><h3>App para Android</h3><p>El enlace de descarga estará aquí cuando salga la primera versión instalable.</p></div></section>
+</main>
+<footer class="others"><div class="wrap"><h2>Otras estaciones</h2><div class="chips"><a href="lobo.html" style="--c:#1F4FE0;--k:#FFFFFF">Lobo<small>Administración</small></a><a href="toro.html" style="--c:#E0202B;--k:#FFFFFF">Toro<small>Economía</small></a><a href="vikingo.html" style="--c:#12994A;--k:#FFFFFF">Vikingo<small>Ingeniería</small></a></div><p class="fine">Prototipo universitario en prueba. Contenido en revisión.</p></div></footer>
+</body></html>
